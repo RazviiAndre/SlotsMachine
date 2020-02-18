@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #0D002B;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="JOACA" defaultButton="true" layoutX="360.0" layoutY="493.0" mnemonicParsing="false" onAction="#setJOACA" text="Joaca" />
+      <Button fx:id="dubleazaROSU" layoutX="285.0" layoutY="493.0" mnemonicParsing="false" onAction="#setDubleaza" style="-fx-background-color: red;" text="ROSU" textFill="#dbff00">
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </input>
+            </Glow>
+         </effect></Button>
+      <Button fx:id="dubleazaNEGRU" layoutX="426.0" layoutY="493.0" mnemonicParsing="false" onAction="#setDubleaza" style="-fx-background-color: black;" text="NEGRU" textFill="#bccf0e" />
+      <Label fx:id="label1_1SLOT" layoutX="188.0" layoutY="174.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B #0D002B;" textFill="RED" />
+      <Label fx:id="label1_2SLOT" layoutX="278.0" layoutY="174.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B #0D002B;" />
+      <Label fx:id="label1_3SLOT" layoutX="368.0" layoutY="174.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="labelWIN" layoutX="82.0" layoutY="70.0" style="-fx-background-color: yellow;" />
+      <Label layoutX="24.0" layoutY="24.0" prefHeight="16.0" prefWidth="36.0" style="-fx-background-color: yellow;" text="CASH" />
+      <Label layoutX="24.0" layoutY="70.0" style="-fx-background-color: yellow;" text="WIN" />
+      <Label layoutX="24.0" layoutY="106.0" style="-fx-background-color: yellow;" text="BET" />
+      <Label fx:id="labelBET" layoutX="64.0" layoutY="106.0" style="-fx-background-color: yellow;" />
+      <Label fx:id="label1_4SLOT" layoutX="458.0" layoutY="174.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label1_5SLOT" layoutX="548.0" layoutY="174.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label2_1SLOT" layoutX="188.0" layoutY="264.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label2_2SLOT" layoutX="278.0" layoutY="264.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label2_3SLOT" layoutX="368.0" layoutY="264.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label2_4SLOT" layoutX="458.0" layoutY="264.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label2_5SLOT" layoutX="548.0" layoutY="264.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label3_1SLOT" layoutX="188.0" layoutY="354.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label3_2SLOT" layoutX="278.0" layoutY="354.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label3_3SLOT" layoutX="368.0" layoutY="354.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label3_4SLOT" layoutX="458.0" layoutY="354.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="label3_5SLOT" layoutX="548.0" layoutY="354.0" prefHeight="90.0" prefWidth="90.0" style="-fx-background-color: #0D002B;" />
+      <Label fx:id="labelCASH" layoutX="90.0" layoutY="24.0" style="-fx-background-color: yellow;" />
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+</AnchorPane>
